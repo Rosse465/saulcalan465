@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #B2B6B6;
+    width: 1200px;
+    margin: auto;
+    background-attachment: fixed ;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    font-size: 33px;
+}
+
+nav{
+    text-align: center;
+}
+
+.normal li{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding-left: 0px;
+    padding-right: 1px;
+    box-shadow: 2px 2px 2px black
+}
+
+.normal li i{
+    color: #000;
+}
+
+.normal li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    font-size: 21px;
+}
+
+.normal li:hover{
+    background-color: lightgray;
+    color: white;
+}
+
+.normal a:hover{
+    color: gray;
+}
+
+p{
+    font-size: 25px;
+}
+
+.ejemp-c{
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+.ejemp-c:hover > img{
+    display: inline;
+}
+
+.descripcion{
+    font-size: 19px;
+}
+
+.ejemp-c img{
+    display: none;
+    width: 450px;
+    transition-property: display;
+    transition-duration: 1s;
+}
+
+.ejemp-cpp{
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+.ejemp-cpp:hover > img{
+    display: inline;
+}
+
+.ejemp-cpp img{
+    display: none;
+    width: 450px;
+}
+
+.ejemp-piton{
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+.ejemp-piton:hover > img{
+    display: inline;
+}
+
+.ejemp-piton img{
+    display: none;
+    width: 450px;
+}
+
+.responsive{
+    display: none;
+}

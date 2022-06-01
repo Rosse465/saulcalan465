@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #B2B6B6;
+    width: 1200px;
+    margin: auto;
+    background-attachment: fixed ;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    font-size: 33px;
+}
+
+nav{
+    text-align: center;
+}
+
+.normal li{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding-left: 0px;
+    padding-right: 1px;
+    box-shadow: 2px 2px 2px black
+}
+
+.normal li i{
+    color: #000;
+}
+
+.normal li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    font-size: 21px;
+}
+
+.normal li:hover{
+    background-color: lightgray;
+    color: white;
+}
+
+.normal a:hover{
+    color: grey;
+}
+
+.mi-info{
+    display: flex;
+    width: 1019px;
+    margin: 70px auto;
+}
+
+.mi-info p{
+    text-align: left;
+    font-size: 20px;
+}
+
+.languages{
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    height: 170px;
+    margin: auto;
+}
+
+.languages div{
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 2px 2px 2px white;
+}
+
+.C{
+    width: 800px;
+    height: 150px;
+    margin: 10px auto;
+    background-color: #0C122E;
+    transition-property: height;
+    transition-duration: .3s;
+}
+
+.c-temas{   
+    display: none;
+}
+
+.c-temas li {
+    color: white;
+}
+
+.C:hover{
+    height: 300px;
+}
+
+.C:hover > .c-temas{
+    display: inline;
+}
+
+.C p{
+    color: white;
+}
+
+.C .libre{
+    color: salmon;
+}
+
+.C .func{
+    color: greenyellow;
+}
+
+
+.cpp{
+    width: 800px;
+    height: 150px;
+    margin: 10px auto;
+    background-color: #0C122E;
+    transition-property: height;
+    transition-duration: .3s;
+}
+
+.cpp p{
+    color: white;
+}
+
+.cpp .libre{
+    color: salmon;
+}
+
+.cpp .func{
+    color: greenyellow;
+}
+
+.cpp:hover{
+    height: 300px;
+}
+
+.cpp:hover > .c-temas{
+    display: inline;
+}
+
+.python{
+    width: 800px;
+    height: 150px;
+    margin: 10px auto;
+    background-color: #0C122E;
+    transition-property: height;
+    transition-duration: .3s;
+    background-attachment: fixed;
+}
+
+.python p{
+    color: white;
+}
+
+.python .libre{
+    color: salmon;
+}
+
+.python .func{
+    color: greenyellow;
+}
+
+.python:hover{
+    height: 300px;
+}
+
+.python:hover > .c-temas{
+    display: inline;
+}
+
+.responsive{
+    display: none;
+}
+
